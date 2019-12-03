@@ -62,23 +62,23 @@ air_quality_index=read_from_file(aqi_json_file_name)
 
 11. The following codes may appear in your json file and these are their definitions:
 * `ts` : timestamp
-• `aqius` : AQI value based on US EPA standard
-• `aqicn` : AQI value based on China MEP standard
-• `mainus` : main pollutant for US AQI
-• `maincn` : main pollutant for Chinese AQI
-• `tp` : temperature in Celsius
-• `tp` : min minimum temperature in Celsius
-• `pr` : atmospheric pressure in hPa
-• `hu` : humidity
-• `ws` : wind speed (m/s)
-• `wd` : wind direction, as an angle of 360 (N=0, E=90, S=180, W=270)
-• `p2` : pm2.5
-• `p1` : pm10
-• `o3` : Ozone O3
-• `n2` : Nitrogen dioxide NO2
-• `s2` : Sulfur dioxide SO2
-• `co` : Carbon monoxide CO
-• `ic` : weather icon code, see Figure 1 for icon index and get the images from the assignment folder
+* `aqius` : AQI value based on US EPA standard
+* `aqicn` : AQI value based on China MEP standard
+* `mainus` : main pollutant for US AQI
+* `maincn` : main pollutant for Chinese AQI
+* `tp` : temperature in Celsius
+* `tp` : min minimum temperature in Celsius
+* `pr` : atmospheric pressure in hPa
+* `hu` : humidity
+* `ws` : wind speed (m/s)
+* `wd` : wind direction, as an angle of 360 (N=0, E=90, S=180, W=270)
+* `p2` : pm2.5
+* `p1` : pm10
+* `o3` : Ozone O3
+* `n2` : Nitrogen dioxide NO2
+* `s2` : Sulfur dioxide SO2
+* `co` : Carbon monoxide CO
+* `ic` : weather icon code, see Figure 1 for icon index and get the images from the assignment folder
 
 12. In the JSON file that you saved, you have the latitude and longitude of the location from which you
 collected the air quality information. Save these values in two variables: *latitude* and *longitude* in
